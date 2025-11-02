@@ -253,10 +253,14 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
           {/* CARD DE BENEFÍCIOS - MOBILE ONLY */}
           <div className="mt-1 md:hidden">
             <div className="p-3">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">
-                Você está <span className="text-red-600 font-bold">CANSADO DE JOGAR O SEU DINHEIRO NO LIXO</span> com <span className="text-red-600 font-bold">PLANOS DE INTERNET CAROS E LIMITADOS</span>? vem você também economizar com a
+              <h2 className="text-xl font-bold mb-2 text-gray-900 uppercase">
+                Você está <span className="text-red-600 font-bold">CANSADO</span><br />
+                de pagar caro por planos de internet caros e limitados?
               </h2>
-              
+              <p className="text-base text-gray-700 mb-4 leading-relaxed">
+                Venha conhecer a Federal Associados! Aqui você tem internet móvel 4G/5G ilimitada de verdade, com planos que cabem no seu bolso
+              </p>
+
               {/* Nova imagem centralizada abaixo do título - MOBILE ONLY */}
               <div className="mb-6 text-center">
                 <div className="max-w-xs mx-auto">
@@ -585,9 +589,13 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
         <div className="hidden md:block">
           <div className="mt-1">
             <div className="p-3">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">
-                Você está <span className="text-red-600 font-bold">CANSADO DE JOGAR O SEU DINHEIRO NO LIXO</span> com <span className="text-red-600 font-bold">PLANOS DE INTERNET CAROS E LIMITADOS</span>? vem você também economizar com a
+              <h2 className="text-xl font-bold mb-2 text-gray-900 uppercase">
+                Você está <span className="text-red-600 font-bold">CANSADO</span><br />
+                de pagar caro por planos de internet caros e limitados?
               </h2>
+              <p className="text-base text-gray-700 mb-4 leading-relaxed">
+                Venha conhecer a Federal Associados! Aqui você tem internet móvel 4G/5G ilimitada de verdade, com planos que cabem no seu bolso
+              </p>
 
               {/* Nova imagem centralizada abaixo do título - DESKTOP */}
               <div className="mb-6 text-center">
