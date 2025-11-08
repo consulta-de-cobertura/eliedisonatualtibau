@@ -254,11 +254,10 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
           <div className="mt-1 md:hidden">
             <div className="p-3">
               <h2 className="text-xl font-bold mb-2 text-gray-900 uppercase">
-                Você está <span className="text-red-600 font-bold">CANSADO</span><br />
-                de pagar caro por planos de internet caros e limitados?
+                VOCÊ QUER ECONOMIZAR ATÉ 80% EM SUA CONTA DE INTERNET MÓVEL 4G/5G?
               </h2>
               <p className="text-base text-gray-700 mb-4 leading-relaxed">
-                Venha conhecer a Federal Associados! Aqui você tem internet móvel 4G/5G ilimitada de verdade, com planos que cabem no seu bolso
+                Vem pra Federal Associados, aqui você tem internet móvel 4G/5G ilimitada de verdade, com benefícios que realmente fazem a diferença em sua vida.
               </p>
 
               {/* Nova imagem centralizada abaixo do título - MOBILE ONLY */}
@@ -590,11 +589,10 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
           <div className="mt-1">
             <div className="p-3">
               <h2 className="text-xl font-bold mb-2 text-gray-900 uppercase">
-                Você está <span className="text-red-600 font-bold">CANSADO</span><br />
-                de pagar caro por planos de internet caros e limitados?
+                VOCÊ QUER ECONOMIZAR ATÉ 80% EM SUA CONTA DE INTERNET MÓVEL 4G/5G?
               </h2>
               <p className="text-base text-gray-700 mb-4 leading-relaxed">
-                Venha conhecer a Federal Associados! Aqui você tem internet móvel 4G/5G ilimitada de verdade, com planos que cabem no seu bolso
+                Vem pra Federal Associados, aqui você tem internet móvel 4G/5G ilimitada de verdade, com benefícios que realmente fazem a diferença em sua vida.
               </p>
 
               {/* Nova imagem centralizada abaixo do título - DESKTOP */}
