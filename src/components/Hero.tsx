@@ -254,10 +254,10 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
           <div className="mt-1 md:hidden">
             <div className="p-3">
               <h2 className="text-xl font-bold mb-2 text-gray-900 uppercase">
-                VOCÊ QUER ECONOMIZAR ATÉ 80% EM SUA CONTA DE INTERNET MÓVEL 4G/5G?
+                VOCÊ <span className="text-blue-600">QUER ECONOMIZAR ATÉ 80% EM SUA CONTA DE INTERNET MÓVEL</span> 4G/5G?
               </h2>
               <p className="text-base text-gray-700 mb-4 leading-relaxed">
-                Vem pra Federal Associados, aqui você tem internet móvel 4G/5G ilimitada de verdade, com benefícios que realmente fazem a diferença em sua vida.
+                Vem pra <span className="text-blue-600">Federal Associados</span>, <span className="text-blue-600">aqui você tem internet móvel 4G/5G ilimitada de verdade</span>, com <span className="text-blue-600">benefícios</span> que <span className="text-blue-600">realmente</span> fazem a <span className="text-blue-600">diferença</span> em <span className="text-blue-600">sua vida</span>.
               </p>
 
               {/* Nova imagem centralizada abaixo do título - MOBILE ONLY */}
@@ -589,10 +589,10 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
           <div className="mt-1">
             <div className="p-3">
               <h2 className="text-xl font-bold mb-2 text-gray-900 uppercase">
-                VOCÊ QUER ECONOMIZAR ATÉ 80% EM SUA CONTA DE INTERNET MÓVEL 4G/5G?
+                VOCÊ <span className="text-blue-600">QUER ECONOMIZAR ATÉ 80% EM SUA CONTA DE INTERNET MÓVEL</span> 4G/5G?
               </h2>
               <p className="text-base text-gray-700 mb-4 leading-relaxed">
-                Vem pra Federal Associados, aqui você tem internet móvel 4G/5G ilimitada de verdade, com benefícios que realmente fazem a diferença em sua vida.
+                Vem pra <span className="text-blue-600">Federal Associados</span>, <span className="text-blue-600">aqui você tem internet móvel 4G/5G ilimitada de verdade</span>, com <span className="text-blue-600">benefícios</span> que <span className="text-blue-600">realmente</span> fazem a <span className="text-blue-600">diferença</span> em <span className="text-blue-600">sua vida</span>.
               </p>
 
               {/* Nova imagem centralizada abaixo do título - DESKTOP */}
