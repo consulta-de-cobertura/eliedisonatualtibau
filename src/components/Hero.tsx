@@ -317,6 +317,61 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                 </div>
               </div>
 
+              {/* Nova seção: Conheça nossos planos */}
+              <div className="mb-6 text-center">
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                  Conheça nossos planos
+                </h3>
+
+                <div className="grid grid-cols-1 gap-6 max-w-2xl mx-auto">
+                  {/* PLANOS PARA CELULAR */}
+                  <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+                    <div className="p-4">
+                      <h4 className="text-xl font-bold text-gray-900 mb-4 uppercase">
+                        Planos para Celular
+                      </h4>
+                      <div className="mb-4">
+                        <img
+                          src="https://qkbeuebapuqnlpjgcvxb.supabase.co/storage/v1/object/public/imagem/celular.jpg"
+                          alt="Planos para Celular"
+                          className="w-full h-auto rounded-lg"
+                          loading="lazy"
+                        />
+                      </div>
+                      <button
+                        onClick={onRedirect}
+                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+                      >
+                        Contratar
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* PLANOS PARA MODEM */}
+                  <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+                    <div className="p-4">
+                      <h4 className="text-xl font-bold text-gray-900 mb-4 uppercase">
+                        Planos para Modem
+                      </h4>
+                      <div className="mb-4">
+                        <img
+                          src="https://qkbeuebapuqnlpjgcvxb.supabase.co/storage/v1/object/public/imagem/moldem.jpg"
+                          alt="Planos para Modem"
+                          className="w-full h-auto rounded-lg"
+                          loading="lazy"
+                        />
+                      </div>
+                      <button
+                        onClick={onRedirect}
+                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+                      >
+                        Contratar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* Nova seção: Descubra um mundo de vantagens */}
               <div className="mb-6 text-center">
                 <p className="text-lg text-gray-700 leading-relaxed">
@@ -649,6 +704,61 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                   <p className="text-base font-bold text-red-600 bg-red-50 inline-block px-4 py-2 rounded-lg">
                     Chega de sofrer com internet ruim
                   </p>
+                </div>
+              </div>
+
+              {/* Nova seção: Conheça nossos planos */}
+              <div className="mb-6 text-center">
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                  Conheça nossos planos
+                </h3>
+
+                <div className="grid grid-cols-1 gap-6 max-w-2xl mx-auto">
+                  {/* PLANOS PARA CELULAR */}
+                  <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+                    <div className="p-4">
+                      <h4 className="text-xl font-bold text-gray-900 mb-4 uppercase">
+                        Planos para Celular
+                      </h4>
+                      <div className="mb-4">
+                        <img
+                          src="https://qkbeuebapuqnlpjgcvxb.supabase.co/storage/v1/object/public/imagem/celular.jpg"
+                          alt="Planos para Celular"
+                          className="w-full h-auto rounded-lg"
+                          loading="lazy"
+                        />
+                      </div>
+                      <button
+                        onClick={onRedirect}
+                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+                      >
+                        Contratar
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* PLANOS PARA MODEM */}
+                  <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+                    <div className="p-4">
+                      <h4 className="text-xl font-bold text-gray-900 mb-4 uppercase">
+                        Planos para Modem
+                      </h4>
+                      <div className="mb-4">
+                        <img
+                          src="https://qkbeuebapuqnlpjgcvxb.supabase.co/storage/v1/object/public/imagem/moldem.jpg"
+                          alt="Planos para Modem"
+                          className="w-full h-auto rounded-lg"
+                          loading="lazy"
+                        />
+                      </div>
+                      <button
+                        onClick={onRedirect}
+                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+                      >
+                        Contratar
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
 
