@@ -338,12 +338,14 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                           loading="lazy"
                         />
                       </div>
-                      <button
-                        onClick={onRedirect}
-                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+                      <a
+                        href="https://www.federalassociadoscadastro.shop/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg text-center"
                       >
                         Contratar
-                      </button>
+                      </a>
                     </div>
                   </div>
 
@@ -361,12 +363,14 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                           loading="lazy"
                         />
                       </div>
-                      <button
-                        onClick={onRedirect}
-                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+                      <a
+                        href="https://www.federalassociadoscadastro.shop/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg text-center"
                       >
                         Contratar
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -728,12 +732,14 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                           loading="lazy"
                         />
                       </div>
-                      <button
-                        onClick={onRedirect}
-                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+                      <a
+                        href="https://www.federalassociadoscadastro.shop/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg text-center"
                       >
                         Contratar
-                      </button>
+                      </a>
                     </div>
                   </div>
 
@@ -751,12 +757,14 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                           loading="lazy"
                         />
                       </div>
-                      <button
-                        onClick={onRedirect}
-                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg"
+                      <a
+                        href="https://www.federalassociadoscadastro.shop/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg text-center"
                       >
                         Contratar
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
