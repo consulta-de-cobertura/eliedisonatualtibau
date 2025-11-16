@@ -332,7 +332,7 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                       </h4>
                       <div className="mb-4">
                         <img
-                          src="https://qkbeuebapuqnlpjgcvxb.supabase.co/storage/v1/object/public/imagem/celular.jpg"
+                          src="/images/celular.jpg"
                           alt="Planos para Celular"
                           className="w-full h-auto rounded-lg"
                           loading="lazy"
@@ -355,7 +355,7 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                       </h4>
                       <div className="mb-4">
                         <img
-                          src="https://qkbeuebapuqnlpjgcvxb.supabase.co/storage/v1/object/public/imagem/moldem.jpg"
+                          src="/images/moldem.jpg"
                           alt="Planos para Modem"
                           className="w-full h-auto rounded-lg"
                           loading="lazy"
@@ -722,7 +722,7 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                       </h4>
                       <div className="mb-4">
                         <img
-                          src="https://qkbeuebapuqnlpjgcvxb.supabase.co/storage/v1/object/public/imagem/celular.jpg"
+                          src="/images/celular.jpg"
                           alt="Planos para Celular"
                           className="w-full h-auto rounded-lg"
                           loading="lazy"
@@ -745,7 +745,7 @@ const Hero: React.FC<HeroProps> = ({ onRedirect }) => {
                       </h4>
                       <div className="mb-4">
                         <img
-                          src="https://qkbeuebapuqnlpjgcvxb.supabase.co/storage/v1/object/public/imagem/moldem.jpg"
+                          src="/images/moldem.jpg"
                           alt="Planos para Modem"
                           className="w-full h-auto rounded-lg"
                           loading="lazy"
